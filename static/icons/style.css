@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jz4sdw');
+  src:  url('fonts/icomoon.eot?jz4sdw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jz4sdw') format('truetype'),
+    url('fonts/icomoon.woff?jz4sdw') format('woff'),
+    url('fonts/icomoon.svg?jz4sdw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-send:before {
+  content: "\e900";
+}
+.icon-send2:before {
+  content: "\e901";
+}
+.icon-github:before {
+  content: "\e902";
+}
+.icon-youtube:before {
+  content: "\e903";
+}
+.icon-paperplane:before {
+  content: "\e904";
+}
+.icon-send3:before {
+  content: "\e904";
+}
+.icon-flight:before {
+  content: "\e904";
+}
+.icon-email:before {
+  content: "\e904";
+}
+.icon-eye-hidden:before {
+  content: "\e905";
+}
+.icon-eye-hidden2:before {
+  content: "\e906";
+}
+.icon-eye:before {
+  content: "\e907";
+}
+.icon-eye2:before {
+  content: "\e908";
+}
+.icon-document-text:before {
+  content: "\e909";
+}
+.icon-document-text2:before {
+  content: "\e90a";
+}
+.icon-document-download:before {
+  content: "\e90b";
+}
+.icon-document-download2:before {
+  content: "\e90c";
+}
+.icon-document-file-pdf:before {
+  content: "\e90d";
+}
+.icon-paper-plane:before {
+  content: "\e90e";
+}
+.icon-travel:before {
+  content: "\e90e";
+}
+.icon-plane:before {
+  content: "\e90e";
+}
+.icon-error:before {
+  content: "\e90f";
+}
+.icon-cancel:before {
+  content: "\e90f";
+}
+.icon-close:before {
+  content: "\e90f";
+}
+.icon-partially-checked:before {
+  content: "\e90f";
+}
+.icon-microphone:before {
+  content: "\e910";
+}
+.icon-microphone2:before {
+  content: "\e911";
+}
+.icon-send4:before {
+  content: "\e912";
+}
+.icon-paper-plane2:before {
+  content: "\e913";
+}
+.icon-github-with-circle:before {
+  content: "\e914";
+}
+.icon-github2:before {
+  content: "\e915";
+}
+.icon-mic2:before {
+  content: "\e916";
+}
+.icon-stats:before {
+  content: "\e917";
+}
+.icon-monitor:before {
+  content: "\e917";
+}
+.icon-board:before {
+  content: "\e917";
+}
+.icon-mic:before {
+  content: "\e91e";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-tv:before {
+  content: "\e95b";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-angellist:before {
+  content: "\e918";
+}
+.icon-angular:before {
+  content: "\e919";
+  color: #dd0031;
+}
+.icon-bitcoin:before {
+  content: "\e91a";
+  color: #f7931a;
+}
+.icon-codepen:before {
+  content: "\e91b";
+}
+.icon-css3:before {
+  content: "\e91c";
+  color: #1572b6;
+}
+.icon-csswizardry:before {
+  content: "\e91d";
+  color: #f43059;
+}
+.icon-digitalocean:before {
+  content: "\e91f";
+  color: #0080ff;
+}
+.icon-discourse:before {
+  content: "\e920";
+}
+.icon-django:before {
+  content: "\e921";
+}
+.icon-facebook:before {
+  content: "\e922";
+  color: #3b5998;
+}
+.icon-github3:before {
+  content: "\e923";
+}
+.icon-gitlab:before {
+  content: "\e924";
+  color: #e24329;
+}
+.icon-goodreads:before {
+  content: "\e925";
+  color: #630;
+}
+.icon-html5:before {
+  content: "\e926";
+  color: #e34f26;
+}
+.icon-instagram:before {
+  content: "\e927";
+  color: #e4405f;
+}
+.icon-paypal:before {
+  content: "\e928";
+  color: #00457c;
+}
+.icon-react:before {
+  content: "\e929";
+  color: #61dafb;
+}
+.icon-reddit:before {
+  content: "\e92a";
+  color: #ff4500;
+}
+.icon-slack:before {
+  content: "\e92b";
+  color: #56b68b;
+}
+.icon-spotify:before {
+  content: "\e92c";
+  color: #1ed760;
+}
+.icon-steam:before {
+  content: "\e92d";
+}
+.icon-sublimetext:before {
+  content: "\e92e";
+}
+.icon-telegram:before {
+  content: "\e92f";
+  color: #2ca5e0;
+}
+.icon-ubuntu:before {
+  content: "\e930";
+  color: #e95420;
+}
+.icon-wattpad:before {
+  content: "\e931";
+  color: #f68d12;
+}
+.icon-webpack:before {
+  content: "\e932";
+  color: #8dd6f9;
+}
+.icon-whatsapp:before {
+  content: "\e933";
+  color: #25d366;
+}
+.icon-youtube3:before {
+  content: "\e934";
+  color: #f00;
+}
+.icon-paper-plane-o:before {
+  content: "\e935";
+}
+.icon-send-o:before {
+  content: "\e935";
+}
+.icon-paper-plane3:before {
+  content: "\e936";
+}
+.icon-send5:before {
+  content: "\e936";
+}
+.icon-times-rectangle-o:before {
+  content: "\e937";
+}
+.icon-window-close-o:before {
+  content: "\e937";
+}
+.icon-microphone-slash:before {
+  content: "\e938";
+}
