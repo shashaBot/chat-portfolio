@@ -141,7 +141,7 @@ export default class extends React.Component {
 								</div>
 								<div style={{marginTop: '1rem'}}>
 									<a title="LinkedIn" href="https://linkedin.com/in/shashwatgulyani" target="_blank"><i className='fa fa-linkedin'></i></a>
-									<a title="Email me" href="mailto:shashwatgulyani@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+									<a title="Email me" href="mailto:shashwatgulyani@gmail.com" target="_blank"><i className="fa fa-envelope"></i></a>
 								</div>
 								<div style={{marginTop: '20px'}}>&copy; shashaBot</div>
 							</Col>
