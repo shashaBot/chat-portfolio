@@ -18,7 +18,7 @@ export default class extends React.Component {
 						{messages.map( m => <Message {...m} />)}
 					</ul>
 				:
-					<div class='no-message'>
+					<div className='no-message'>
 						Start talking by sending a message
 					</div>
 				}

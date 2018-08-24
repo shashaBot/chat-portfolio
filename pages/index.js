@@ -30,7 +30,7 @@ export default class extends React.Component {
 					key: prevState.msgCount+1,
 					time: new Date(), 
 					my: false, 
-					text: this.state.query
+					message: this.state.query
 				}]),
 				msgCount: ++prevState.msgCount
 			}
@@ -72,15 +72,19 @@ export default class extends React.Component {
 		// 		console.log('error decoding data', err)
 		// 	})
 
-		let queryResult = result[0].queryResult
-		this.setState( prev => {
-			return {
-				messages: prev.messages.concat([{
-					key: result[0].responseId,
-					time: new Date(),
-					my: true,
-					text: queryResult.fulfillmentText
-				}])
+		let messages = result[0].queryResult.fulfillmentMessages
+		messages.forEach( msg => {
+			if(msg.platform === 'PLATFORM_UNSPECIFIED' && msg.payload.platform === 'website') {
+				this.setState( prev => {
+					return {
+						messages: prev.messages.concat([{
+							key: result[0].responseId,
+							time: new Date(),
+							my: true,
+							message: msg.payload.payload
+						}])
+					}
+				})				
 			}
 		})
 
@@ -119,7 +123,7 @@ export default class extends React.Component {
 
 		return (
 			<Row className='window-container'>
-				<Col xs={4} className='people-list'>
+				<Col xs={3} className='people-list'>
 					<Grid fluid style={{height: '100%'}}>
 						<Row style={{height: '100%'}}>
 							<Col xs={12} style={{height: '70%'}}>
@@ -148,7 +152,7 @@ export default class extends React.Component {
 						</Row>
 					</Grid>
 				</Col>
-				<Col xs={8} className='chat'>
+				<Col xs={9} className='chat'>
 					<Row between='xs' className="chat-header">
 						<Col xs={11}>
 							<Grid fluid>

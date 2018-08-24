@@ -7,6 +7,7 @@ const morgan = require('morgan')
 const app = express()
 const https = require('https')
 const path = require('path')
+const structjson = require('./structjson')
 
 // dialogflow init
 const dialogflow = require('./dialogflow')
@@ -38,6 +39,11 @@ app.use(express.static(path.join(__dirname, 'static')))
 app.post('/api/detectTextIntent', (req, res) => {
 	dfClient.detectTextIntent(req.body.text)
 		.then( result => {
+			console.log('result', result)
+			result[0].queryResult.fulfillmentMessages.forEach( msg => {
+				msg.payload = structjson.structProtoToJson(msg.payload)
+				console.log('payload', msg.payload)
+			})
 			res.json({success: true, result})
 		})
 		.catch( err => {

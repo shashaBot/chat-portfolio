@@ -1,5 +1,5 @@
 export default () => 
-	<div class="typing-indicator">
+	<div className="typing-indicator">
 		<span></span>
 		<span></span>
 		<span></span>
