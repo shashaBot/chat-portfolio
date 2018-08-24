@@ -2,4 +2,4 @@
 A web chat interface using Dialogflow and React.
 
 # Screenshot
-![Screenshot](https://raw.githubusercontent.com/shashaBot/chat-portolio/master/chat_portfolio.png)
+![Screenshot](https://raw.githubusercontent.com/shashaBot/chat-portfolio/master/chat_portfolio.png)
